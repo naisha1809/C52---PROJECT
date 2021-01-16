@@ -1,0 +1,52 @@
+h3{
+    color:pink ;
+}
+
+.header{ 
+    background-color:rgb(241, 242, 243);
+    border: 30px;
+} 
+
+ .menu{ 
+     background-color: rgb(0, 0, 0);
+     display:flex;
+     justify-content:  space-evenly;
+     font-size:20px;
+     padding:15px;
+     font-family:sans-serif;
+     font-weight:400;
+     color:white;
+ }
+ body{
+     background-color: whitesmoke;
+     margin:0px;
+ }
+ 
+ .grid{
+     border:2px solid black;
+     border-radius:50px;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+
+ .origami{
+    border-radius:20px;
+    background-color: white;
+    padding:30px;
+    margin:25px;
+    width:310px;
+    font-family:fantasy;
+ }
+
+ .origami:hover{
+     transform:scale(1.2);
+ }
+
+ a:visited{
+    color:aliceblue;
+}
+
+a:link{
+    color:rgb(153, 26, 26);
+}
